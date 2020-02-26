@@ -16,7 +16,7 @@ function Admin(props){
       <TicketList
         ticketList={props.ticketList}
         currentRouterPath={props.currentRouterPath}
-        onTicketSelection={props.onTicketSelection}/>
+        >
     </div>
   );
 }
