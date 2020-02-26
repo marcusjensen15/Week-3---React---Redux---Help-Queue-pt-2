@@ -13,7 +13,9 @@ export default (state = {}, action) => {
         location: location,
         issue: issue,
         timeOpen: timeOpen,
-        id: id
+        id: id,
+        formattedWaitTime: formattedWaitTime
+
       }
     });
     return newState;
